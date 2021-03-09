@@ -1,0 +1,47 @@
+// General
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+    font-family: 'Happy Monkey', cursive;
+}
+
+.required{
+    color: red;
+}
+
+// Login Page
+div.form{
+    display: block;
+    text-align: center;
+}
+.form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 2em;
+    width: 40em;
+}
+fieldset{
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 3em;
+}
+button {
+    border-radius: 10%;
+    background-color: turquoise;
+}
+
+input{
+    padding: 10px;
+    width: 20em;
+    text-align: left;
+}
+label, button{
+    font-size: larger;
+    font: 'Happy Monkey'
+}
+
+// Add Question Page
+#grid-container{}
