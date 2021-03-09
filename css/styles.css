@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
-body {
+* {
   font-family: 'Happy Monkey', cursive;
 }
 
@@ -42,5 +42,79 @@ input {
 label, button {
   font-size: larger;
   font: 'Happy Monkey';
+}
+
+#grid-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#question-input {
+  grid-column: 1/-1;
+  width: 100%;
+  margin-bottom: -4em;
+}
+
+#answer-one {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  width: 5em;
+  height: 5em;
+  padding: 2em;
+  text-align: center;
+  font-size: large;
+}
+
+#answer-two {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  width: 5em;
+  height: 5em;
+  padding: 2em;
+  text-align: center;
+  font-size: large;
+}
+
+#answer-three {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  width: 5em;
+  height: 5em;
+  padding: 2em;
+  text-align: center;
+  font-size: large;
+}
+
+#answer-four {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  width: 5em;
+  height: 5em;
+  padding: 2em;
+  text-align: center;
+  font-size: large;
+}
+
+#topics-container {
+  margin-top: -5em;
+  grid-column: 1/-1;
+}
+
+#add-question {
+  grid-column: 1/-1;
+  margin-top: -1em;
 }
 /*# sourceMappingURL=styles.css.map */
