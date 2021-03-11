@@ -106,3 +106,61 @@ label, button{
     margin-top:-1em;
     padding: 1em;
 }
+
+// Gameplay Page
+#grid-container-gameplay{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+#points-div{
+    grid-column: 1/-1;
+}
+#answer-one-div{
+    grid-column: 1/2;
+    width: 5em;
+    height: 5em;
+    padding: 2em;
+    text-align: center;
+    font-size: large;
+    border: 2px solid black;
+    background-color: $top-left;
+}
+
+#answer-two-div{
+    grid-column: 2/3;
+    width: 5em;
+    height: 5em;
+    padding: 2em;
+    text-align: center;
+    font-size: large;
+    border: 2px solid black;
+    background-color: $top-right;
+}
+
+
+#answer-three-div{
+    grid-column: 1/2;
+    width: 5em;
+    height:5em;
+    padding: 2em;
+    text-align: center;
+    font-size: large;
+    border: 2px solid black;
+    background-color: $bottom-right;
+}
+
+#answer-four-div{
+    grid-column: 2/3;
+    width: 5em;
+    height: 5em;
+    padding: 2em;
+    text-align: center;
+    font-size: large;
+    border: 2px solid black;
+    background-color: $bottom-right;
+}
