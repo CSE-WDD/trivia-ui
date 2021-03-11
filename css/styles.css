@@ -131,4 +131,68 @@ label, button {
   margin-top: -1em;
   padding: 1em;
 }
+
+#grid-container-gameplay {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+#points-div {
+  grid-column: 1/-1;
+}
+
+#answer-one-div {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  width: 5em;
+  height: 5em;
+  padding: 2em;
+  text-align: center;
+  font-size: large;
+  border: 2px solid black;
+  background: top;
+}
+
+#answer-two-div {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  width: 5em;
+  height: 5em;
+  padding: 2em;
+  text-align: center;
+  font-size: large;
+}
+
+#answer-three-div {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  width: 5em;
+  height: 5em;
+  padding: 2em;
+  text-align: center;
+  font-size: large;
+}
+
+#answer-four-div {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  width: 5em;
+  height: 5em;
+  padding: 2em;
+  text-align: center;
+  font-size: large;
+}
 /*# sourceMappingURL=styles.css.map */
