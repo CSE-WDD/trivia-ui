@@ -1,0 +1,57 @@
+// HEADER
+
+header {
+    div {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        transition: 0.5s;
+    }
+    .button {
+        transition: 0.5s;
+        position: fixed;
+        top: 20;
+        right: 0;
+        z-index: 2;
+        margin-right: 20px;
+    }
+    .bar1, .bar2, .bar3 {
+        margin-top: 6px;
+    }
+    position: fixed;
+    float: right;
+    margin-top: 10px;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: black; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 80px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+  
+  /* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    margin-left: 50px;
+}
