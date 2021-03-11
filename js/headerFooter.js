@@ -26,10 +26,6 @@ function closeNav() {
     nav = false;
 }
 
-function toggleNav() {
-    nav ? closeNav() : openNav();
-}
-
 function getHeaderContents() {
     const markup = `
     <span>
@@ -41,11 +37,16 @@ function getHeaderContents() {
         </span>
         <div id="mySidenav" class="sidenav">
           <a href="#">HOME</a>
-          <a href="gallery.html">GALLERY</a>
-          <a href="about.html">ABOUT</a>
-          <a href="contact.php">CONTACT</a>
+          <a href="highScores.html">High Scores</a>
+          <a href="addQuestion.html">Add Question</a>
+          <a href="gamePlay.html">Game Play</a>
+          <a href="login.html">Login</a>
+          <a href="signUp.html">Sign Up</a>
+          <a href="startGame.html">Start Game</a>
         </div>
    `;
    document.querySelector("header").innerHTML = markup;
-   document.querySelector(".button").addEventListener("click", toggleNav());
+   document.querySelector(".button").addEventListener("click", function() {
+    nav ? closeNav() : openNav();
+  })
 }

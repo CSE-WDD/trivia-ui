@@ -1,3 +1,11 @@
+// Variables
+$top-left: red;
+$top-right: blue;
+$bottom-left: orange;
+$bottom-right: green;
+$question-input-box: lavender;
+$button-background-color: lavender;
+
 // HEADER
 
 header {
@@ -10,7 +18,7 @@ header {
   .button {
     transition: 0.5s;
     position: fixed;
-    top: 20;
+    padding-top: -25;
     right: 0;
     z-index: 2;
     margin-right: 20px;
@@ -49,14 +57,6 @@ header {
   display: block;
   transition: 0.3s;
 }
-
-// Variables
-$top-left: red;
-$top-right: blue;
-$bottom-left: orange;
-$bottom-right: green;
-$question-input-box: lavender;
-$button-background-color: lavender;
 
 .sidenav {
   position: fixed;
@@ -589,7 +589,7 @@ input[type=password]{
     display: table;
     margin: 0 auto;
     max-width: 100%;
-    margin-top: 2em;
+    // margin-top: 2em;
 }
 
 table{
