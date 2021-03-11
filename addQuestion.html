@@ -11,21 +11,22 @@
 
 <body>
     <main>
+        <form>
         <div id="grid-container">
-
             <input type="text" id="question-input" placeholder="QUESTION HERE"><br><br>
 
-            <textarea id="answer-one" class="question-input" placeholder="Answer 1" required></textarea>
+            <input id="answer-one" class="question-input" placeholder="Answer 1" required></input>
 
-            <textarea id="answer-two" class="question-input" placeholder="Answer 2" required></textarea>
+            <input id="answer-two" class="question-input" placeholder="Answer 2" required></input>
 
-            <textarea id="answer-three" class="question-input" placeholder="Answer 3" required></textarea>
+            <input id="answer-three" class="question-input" placeholder="Answer 3" required></input>
 
-            <textarea id="answer-four" class="question-input" placeholder="Answer 4" required></textarea><br><br>
+            <input id="answer-four" class="question-input" placeholder="Answer 4" required></input><br><br>
 
             <div id="topics-container">
                 <label id="topics-label" for="topics">Topic:</label>
                 <select name="topics" id="topics">
+                    <option value="Select One">Select One</option>
                     <option value="Sports">Sports</option>
                     <option value="Movies">Movies</option>
                     <option value="Food">Food</option>
@@ -35,6 +36,7 @@
                     <option value="Technology">Technology</option>
                 </select>
             </div>
+        </form>
             <button id="add-question">Add Question</button>
         </div>
     </main>
