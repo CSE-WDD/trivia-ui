@@ -1,4 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+header {
+  position: fixed;
+  float: right;
+  margin-top: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+header div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .button {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: fixed;
+  top: 20;
+  right: 0;
+  z-index: 2;
+  margin-right: 20px;
+}
+
+header .bar1,
+header .bar2,
+header .bar3 {
+  margin-top: 6px;
+}
+
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  right: 0;
+  background-color: black;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 80px;
+  /* Place content 60px from the top */
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.sidenav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+* {
+  font-family: "Happy Monkey", cursive;
+=======
 * {
   font-family: 'Happy Monkey', cursive;
   -webkit-box-sizing: border-box;
@@ -44,10 +122,11 @@ input[type=text] {
   width: 30em;
   margin-bottom: 2em;
 }
-
-label, button {
+  
+label,
+button {
   font-size: larger;
-  font: 'Happy Monkey';
+  font: "Happy Monkey";
 }
 
 input[type=password] {
@@ -287,7 +366,7 @@ table {
   max-width: 100%;
   margin-top: 1em;
 }
-
+  
 table, th, tr, td {
   border: 1px solid black;
   border-collapse: collapse;
