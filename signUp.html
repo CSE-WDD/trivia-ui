@@ -15,7 +15,10 @@
     <main>
         <form>
             <fieldset>
-                <label id="login-label">LOGIN</label>
+
+                <label for="email">Email:</label><span class="required">*</span>
+                <input type="text" id="email" placeholder="email" required>
+
                 <label for="username">Username:</label><span class="required">*</span>
                 <input type="text" id="username" placeholder="username" required>
                 
@@ -25,8 +28,8 @@
                 <label for="confirm-password">Confirm Password:</label><span class="required">*</span>
                 <input type="password" id="confirm-password" placeholder="confirm password" required>
                 
-                <button id="login-button">LOGIN</button>
-                <label>or <a href="signUp.html">Sign Up</a></label>
+                <button id="signup-button">SIGN UP</button>
+                <label>or <a href="login.html">Login</a></label>
             </fieldset>
         </form>
     </main>

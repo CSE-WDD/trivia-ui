@@ -13,6 +13,10 @@ $button-background-color: lavender;
 
 * {
     font-family: 'Happy Monkey', cursive;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
 }
 
 .required{
@@ -43,14 +47,28 @@ button {
 }
 
 input[type=text]{
-    padding: 10px;
-    width: 20em;
-    text-align: left;
+    margin: 0.2em;
+    padding: 1em;
+    width: 30em;
+    margin-bottom: 2em;
 }
 label, button{
     font-size: larger;
     font: 'Happy Monkey'
 }
+
+// Sign up Page
+input[type=password]{
+    margin: 0.2em;
+    padding: 1em;
+    width: 30em;
+    margin-bottom: 2em;
+}
+#signup-button{
+    width: 7em;
+}
+
+
 
 // Add Question Page
 #grid-container{
