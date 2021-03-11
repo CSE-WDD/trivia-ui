@@ -76,6 +76,9 @@ header .bar3 {
 
 * {
   font-family: "Happy Monkey", cursive;
+=======
+* {
+  font-family: 'Happy Monkey', cursive;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -113,20 +116,20 @@ button {
   background-color: lavender;
 }
 
-input[type="text"] {
+input[type=text] {
   margin: 0.2em;
   padding: 1em;
   width: 30em;
   margin-bottom: 2em;
 }
-
+  
 label,
 button {
   font-size: larger;
   font: "Happy Monkey";
 }
 
-input[type="password"] {
+input[type=password] {
   margin: 0.2em;
   padding: 1em;
   width: 30em;
@@ -363,11 +366,8 @@ table {
   max-width: 100%;
   margin-top: 1em;
 }
-
-table,
-th,
-tr,
-td {
+  
+table, th, tr, td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 1em;
