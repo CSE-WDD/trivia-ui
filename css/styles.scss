@@ -1,3 +1,12 @@
+// Variables
+$top-left: red;
+$top-right: blue;
+$bottom-left: orange;
+$bottom-right: green;
+$question-input-box: lavender;
+
+
+
 // General
 @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
 
@@ -67,7 +76,7 @@ label, button{
     padding: 2em;
     text-align: center;
     font-size: large;
-
+    background-color: $question-input-box;
 }
 
 #answer-two{
@@ -77,6 +86,7 @@ label, button{
     padding: 2em;
     text-align: center;
     font-size: large;
+    background-color: $question-input-box;
 }
 
 
@@ -87,6 +97,7 @@ label, button{
     padding: 2em;
     text-align: center;
     font-size: large;
+    background-color: $question-input-box;
 }
 
 #answer-four{
@@ -96,10 +107,15 @@ label, button{
     padding: 2em;
     text-align: center;
     font-size: large;
+    background-color: $question-input-box;
 }
 #topics-container{
     margin-top: -5em;
-    grid-column: 1/-1;
+    grid-column: 1/2;
+}
+#difficulty-container{
+    margin-top: -5em;
+    grid-column: 2/3;
 }
 #add-question{
     grid-column: 1/-1;
